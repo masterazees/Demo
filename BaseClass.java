@@ -58,7 +58,18 @@ public class BaseClass {
 		default:
 			driver = new ChromeDriver();
 			break; }
-
+	case "chrome": 
+		driver = new ChromeDriver(); 
+		break; 
+	case "safari": 
+		driver = new safariDriver(); 
+		break; 
+	case "firefox": 
+		driver =new FirefoxDriver(); 
+		break; 
+	default:
+		driver = new ChromeDriver();
+		break; }
 		//driver = new ChromeDriver();
 	}
 	public void quitb() {
