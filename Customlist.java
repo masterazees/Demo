@@ -23,6 +23,11 @@ public class Customlist extends BaseClass implements ITestListener {
 		//System.out.println("Failed Test");
 		screenshotA(result.getMethod().getMethodName());
 	}
+	@Override
+	public void onTestFailure(ITestResult result) {
+		//System.out.println("Failed Test");
+		screenshotA(result.getMethod().getMethodName());
+	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {

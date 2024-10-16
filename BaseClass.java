@@ -62,7 +62,7 @@ public class BaseClass {
 		driver = new ChromeDriver(); 
 		break; 
 	case "safari": 
-		driver = new safariDriver(); 
+		driver = new operaDriver(); 
 		break; 
 	case "firefox": 
 		driver =new FirefoxDriver(); 
