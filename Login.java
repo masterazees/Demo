@@ -127,7 +127,9 @@ public class Login extends BaseClass {
 		finally{
 			quitb();
 		}
-
+		finally{
+			quitb();
+		}
 
 		//Testcase.log(Status.PASS, markup)
 	}
